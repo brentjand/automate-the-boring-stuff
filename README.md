@@ -16,3 +16,12 @@ A repository featuring a variety of exercises and projects featured in the book 
 # git add -A
 # git commit -m "some message"
 # git push
+
+# to create a new branch from the current branch, use the checkout command:
+# git checkout -b newbranchname
+# the above command creates the new branch and switches to it.
+
+# typing 'git status' now will show you a message indicating that you are now in the 'newbranchname' branch
+# typing 'git branch' will show you a list of all branches associated with repository, along with the branch you are in.
+
+# modifying the file accordingly
