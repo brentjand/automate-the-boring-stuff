@@ -31,6 +31,6 @@ git pull
 git merge versionedBranchNameHere
 git push
 
-The above command order is important, as it ensures all of the current additions from the main are recieved to the local branch before pushing the merged changes to the repository
+The above command order is important, as pull the main branch will ensure the local branch is up to date before pushing merged changes to the repository.
 
-Cherrypicking is a great option to ensure version control occurs at a line le
+Cherrypicking is a great option to ensure version control occurs at a line level.
