@@ -1,34 +1,59 @@
 # automate-the-boring-stuff
 A repository featuring a variety of exercises and projects featured in the book "Automate the Boring Stuff with Python" by Al Sweigart, available at https://automatetheboringstuff.com/
 
-GitHub is a VCS (Version Control System)
-For useful commands regarding git versioning, read the git-doc
+GitHub is a VCS (Version Control System).
+For useful commands regarding git versioning, read the git-doc.
+
+```
 git rebase --help 
 git log --oneline --all --graph
 git log
 git gc    (garbage collection)
+```
 
 How to commit and push changes made on local repository to origin, the following steps can be made.
-git commit -a -m "Insert message describing updated content"  (adds all tracked files to the staging area and commits them in one step)
-git push  (Pushes commits to remote repository)
 
+```
+git commit -a -m "Insert message describing updated content"  
+```
+
+The above command adds all tracked files to the staging area and commits them in one step. Where as the push command will push code to the remote repository:
+```
+git push  
+```
 Alternatively, to add all files with pending adjustments to the staging area followed by commit use:
+```
 git add -A
-git commit -m "some message"
+git commit -m "Notes listing changes placed here"
 git push
-
-to create a new branch from the current branch, use the checkout command:
+```
+To create a new branch from the current branch, use the checkout command:
+```
 git checkout -b newbranchname
-the above command creates the new branch and switches to it.
+```
+The above command creates the new branch and switches to it (checks it out).
 
-typing 'git status' now will show you a message indicating that you are now in the 'newbranchname' branch
-typing 'git branch' will show you a list of all branches associated with repository, along with the branch you are in.
+If we type:
+```
+git status
+```
+We see what branch we are in along with a status update regarding any current and/or pending changes that are staged for commit.
+
+If we type:
+```
+git branch
+```
+We get a list of all local branches that we have created using checkout.
 
 In order to push changes from a copied (versioned) branch to the main branch, the following commands can be used:
+```
 git commit -a -m "Notes listing changes are placed here."
-git checkout main  ---(Naviates back to main branch that changes will be pushed to)
+git checkout main  
 git pull
 git merge versionedBranchNameHere
 git push
+```
 
 The above command order is important, as pull the main branch will ensure the local branch is up to date before pushing merged changes to the repository.
+
+This is all for now - now let's get to work!
