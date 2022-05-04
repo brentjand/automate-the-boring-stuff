@@ -32,5 +32,3 @@ git merge versionedBranchNameHere
 git push
 
 The above command order is important, as pull the main branch will ensure the local branch is up to date before pushing merged changes to the repository.
-
-Cherrypicking is a great option to ensure version control occurs at a line level.
