@@ -5,7 +5,7 @@ A repository featuring a variety of exercises and projects featured in the book 
 # git rebase --help 
 # git log --oneline --all --graph
 # git log
-# git gc
+# git gc    (garbage collection)
 
 # How to commit and push changes made on local repository to origin, the following steps can be made.
 # git commit -a -m "Insert message describing updated content"
