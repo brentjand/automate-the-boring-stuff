@@ -24,11 +24,13 @@ the above command creates the new branch and switches to it.
 typing 'git status' now will show you a message indicating that you are now in the 'newbranchname' branch
 typing 'git branch' will show you a list of all branches associated with repository, along with the branch you are in.
 
-in order to push changes from a copied (versioned) branch to the main branch, the following commands can be used:
+In order to push changes from a copied (versioned) branch to the main branch, the following commands can be used:
 git commit -a -m "Notes listing changes are placed here."
 git checkout main  ---(Naviates back to main branch that changes will be pushed to)
 git pull
 git merge versionedBranchNameHere
 git push
 
-This 
+The above command order is important, as it ensures all of the current additions from the main are recieved to the local branch before pushing the merged changes to the repository
+
+Cherrypicking is a great option to ensure version control occurs at a line le
