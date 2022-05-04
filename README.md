@@ -8,5 +8,10 @@ A repository featuring a variety of exercises and projects featured in the book 
 # git gc    (garbage collection)
 
 # How to commit and push changes made on local repository to origin, the following steps can be made.
-# git commit -a -m "Insert message describing updated content"
+# git commit -a -m "Insert message describing updated content"  (adds all tracked files to the staging area and commits them in one step)
+# git push  (Pushes commits to remote repository)
+
+# Alternatively, to add all of files to the staging area and commit use:
+# git add -A
+# git commit -m "some message"
 # git push
