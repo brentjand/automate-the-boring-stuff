@@ -1,7 +1,6 @@
 # automate-the-boring-stuff
 A repository featuring a variety of exercises and projects featured in the book "Automate the Boring Stuff with Python" by Al Sweigart, available at https://automatetheboringstuff.com/
 
-<<<<<<< HEAD
 GitHub is a VCS (Version Control System)
 For useful commands regarding git versioning, read the git-doc
 git rebase --help 
@@ -33,14 +32,3 @@ git merge versionedBranchNameHere
 git push
 
 The above command order is important, as pull the main branch will ensure the local branch is up to date before pushing merged changes to the repository.
-=======
-# For useful commands regarding git versioning, read the git-doc
-# git rebase --help 
-# git log --oneline --all --graph
-# git log
-# git gc    (garbage collection)
-
-# How to commit and push changes made on local repository to origin, the following steps can be made.
-# git commit -a -m "Insert message describing updated content"
-# git push
->>>>>>> c48424d (Adding updates to README.md pt3)
