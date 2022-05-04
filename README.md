@@ -27,6 +27,8 @@ typing 'git branch' will show you a list of all branches associated with reposit
 in order to push changes from a copied (versioned) branch to the main branch, the following commands can be used:
 git commit -a -m "Notes listing changes are placed here."
 git checkout main  ---(Naviates back to main branch that changes will be pushed to)
+git pull
 git merge versionedBranchNameHere
 git push
 
+This 
