@@ -27,6 +27,11 @@ git add -A
 git commit -m "Notes listing changes placed here"
 git push
 ```
+Or you could use the following command to track and add all files using this command:
+```
+git add .
+```
+
 To create a new branch from the current branch, use the checkout command:
 ```
 git checkout -b newbranchname
@@ -57,3 +62,5 @@ git push
 The above command order is important, as pull the main branch will ensure the local branch is up to date before pushing merged changes to the repository.
 
 This is all for now - now let's get to work!
+
+Let's go!!!!
