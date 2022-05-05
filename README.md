@@ -1,6 +1,10 @@
 # automate-the-boring-stuff
 A repository featuring a variety of exercises and projects featured in the book "Automate the Boring Stuff with Python" by Al Sweigart, available at https://automatetheboringstuff.com/
 
+
+If you are new to programming, and want to learn more about GitHub and some basic commands that are used when utilizing a repository of code, here is a quick overview of GitHub and basic commands that are commonly utilized when compiling code to the online repository from your local directories.
+
+
 GitHub is a VCS (Version Control System).
 For useful commands regarding git versioning, read the git-doc.
 
@@ -63,4 +67,4 @@ The above command order is important, as pull the main branch will ensure the lo
 
 This is all for now - now let's get to work!
 
-Let's go!!!!
+Let's go!!!
