@@ -15,7 +15,7 @@ git log
 git gc    (garbage collection)
 ```
 
-How to commit and push changes made on local repository to origin, the following steps can be made.
+How to commit and push changes made on local repository to origin, the following steps can be made: 
 
 ```
 git commit -a -m "Insert message describing updated content"  
