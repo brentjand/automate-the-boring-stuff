@@ -1,0 +1,39 @@
+# Chapter 16 Notes
+
+The exercises begin using the example.csv file in it's assigned directory. 
+
+We can use the csv() module when working with csv files in python.
+
+Most of the begining exercises are completed using the ineractive shell command. To fire up the interactive shell, type
+'python' into the terminal, then enter the following commands:
+```
+➊ >>> import csv
+➋ >>> exampleFile = open('example.csv')
+➌ >>> exampleReader = csv.reader(exampleFile)
+➍ >>> exampleData = list(exampleReader)
+➎ >>> exampleData
+   [['4/5/2015 13:34', 'Apples', '73'], ['4/5/2015 3:41', 'Cherries', '85'],
+   ['4/6/2015 12:46', 'Pears', '14'], ['4/8/2015 8:59', 'Oranges', '52'],
+   ['4/10/2015 2:07', 'Apples', '152'], ['4/10/2015 18:10', 'Bananas', '23'],
+   ['4/10/2015 2:40', 'Strawberries', '98']]
+```
+This^ is how the output from the above example would look when feeding the csv file into a reader then storing it as a list.
+
+Since the data is now stored inside a list, it can be accessed in the following manner:
+
+```
+>>> exampleData[0][0]
+'4/5/2015 13:34'
+>>> exampleData[0][1]
+'Apples'
+>>> exampleData[0][2]
+'73'
+>>> exampleData[1][1]
+'Cherries'
+>>> exampleData[6][1]
+'Strawberries'
+```
+
+For the row number the reader object's line_num variable is used. Once the csv file has been looped through and printed 
+as an output to the screen, the CSV file must be reread, and the csv.reader function must be called once more.
+
